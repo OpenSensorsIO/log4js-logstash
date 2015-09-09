@@ -1,6 +1,6 @@
 {
-    "name": "log4js-logstash",
-    "version": "0.2.1",
+    "name": "opensensors-log4js-logstash",
+    "version": "0.2.2",
     "author": "Gembly Games B.V.",
     "description": "A simple log appender for log4js thats sends the data to logstash",
     "keywords": [
@@ -14,22 +14,18 @@
     "licenses": [
         {
             "type": "GNUv2",
-            "url": "https://raw.github.com/gembly/LimitlessGEM/master/LICENSE"
+            "url": "https://raw.githubusercontent.com/OpenSensorsIO/log4js-logstash/master/LICENSE"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/gembly/log4js-logstash.git"
+        "url": "https://github.com/OpenSensorsIO/log4js-logstash"
     },
     "devDependencies": {
         "nodeunit": "0.x.x"
     },
-    "scripts": {
-        "test": "nodeunit tests"
-    },
     "engines": {
-        "node": "0.10.x"
+        "node": "0.12.x"
     },
     "main": "./index.js"
 }
-
